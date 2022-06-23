@@ -1,0 +1,210 @@
+:root {
+    background: #9c5a5a;
+  }
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    color: green;
+    }
+i {
+    color: red;
+    }
+b {
+    color: black;
+}
+p b {
+    color: blue !important;
+}
+p b {
+    color: violet;
+}
+p#intro {
+    font-size: 100%;
+}
+p {
+    font-size: 100%;
+    margin: 10px 10px;
+}
+
+/*   h1 h2 h3 {
+     margin: 10px 10px;
+     padding: 10px;
+     color: rgb(255,255,255);}
+
+.note {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+p.note {
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.container {
+    width: 75%;
+    height: auto;
+    position: relative;
+    background-color: beige;
+    border-color: blue;
+    border-style: none;
+    margin: 0 auto;
+    /*display: flex;
+    justify-content: center;*/
+    padding: 0;
+}
+
+.banner {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  }
+
+
+
+.header {
+  width: 96%;
+  height: 110px;
+  background-color: #04AA6D;
+  position: absolute;
+  top: 350px;
+  left: 18px;
+  padding: 0;
+  z-index: 1;
+}
+.menu {
+  bottom: 10px;
+  margin: 0;
+  position: absolute;
+  height: 30px;
+  padding: 5px;
+  background-color: black;
+
+}
+.logotop {
+  margin-top: -130px;
+  right: 10px;
+  position: absolute;
+}
+.content {
+  position: absolute;
+  top: 460px;
+  left: 18px;
+  background-color: beige;
+  width: 96%;
+  padding: 5px;
+}
+
+.footer {
+  /*position: absolute;
+  width: 96%;
+  height: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #00bfa5;
+  left:18px;
+  color: white;
+  font-size: large;
+  height: 80px;*/
+  width: 96%;
+  height: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  z-index: 2;
+  background-color: #04AA6D;
+  color: aqua;
+  clear: both;
+
+}
+
+
+/*banner top representasi agricamp*/
+#banner {
+  width:75%;
+  height: auto;
+  background-color: none;
+  position: relative;
+  z-index: -1;
+  top: 0;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#header {
+  width: 75%;
+  height: 110px;
+  background-color: #04AA6D;
+  position: relative;
+  top: -100px;
+}
+#logotop {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+#navig {
+  width: auto;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+img.logo_top {
+  position: absolute;
+  z-index: 4;
+  margin-top: -100px;
+  margin-right: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  /*width: auto;
+  height: auto;
+  overflow: hidden;
+  align-self: flex-end;*/
+  position: absolute;
+  bottom: 10px;
+  background-color: black;
+  z-index: 2;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link
+  background-color: #04AA6D;
+  color: white; */
+.topnav a:active {
+  background-color: #ddd;
+  color: black;
+}
+
+table {
+  border-color: none;
+  border-width: 1px;
+  border-style: solid;
+}
+td.speaker {
+  width: 200px;
+  height: 300px;
+}
